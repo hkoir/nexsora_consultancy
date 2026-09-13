@@ -1,209 +1,130 @@
 .partners{
-
     padding:100px 0;
-
     background:#ffffff;
 
 }
 
 .partner-card{
-
     background:#ffffff;
-
     border:1px solid var(--border);
-
     border-radius:20px;
-
     padding:45px;
-
     margin-top:60px;
-
     box-shadow:var(--shadow-sm);
-
     transition:var(--transition);
 
 }
 
 .partner-card:hover{
-
     transform:translateY(-6px);
-
     box-shadow:var(--shadow-lg);
 
 }
 
 .partner-photo{
-
     width:100%;
-
     max-width:320px;
-
     aspect-ratio:4/5;
-
     object-fit:cover;
-
     border-radius:20px;
-
     display:block;
-
     margin:auto;
-
     border:5px solid white;
-
     box-shadow:0 15px 35px rgba(0,0,0,.15);
 
 }
 
 .partner-card h3{
-
     font-size:2rem;
-
     font-weight:700;
-
     color:var(--dark);
-
     margin-bottom:8px;
 
 }
 
 .designation{
-
     color:var(--primary);
-
     font-weight:600;
-
     margin-bottom:30px;
 
 }
 
 .partner-info{
-
     margin-bottom:30px;
 
 }
 
 .partner-info p{
-
     display:flex;
-
     align-items:center;
-
     gap:12px;
-
     font-size:1rem;
-
     margin-bottom:15px;
-
     color:var(--text);
 
 }
 
 .partner-info svg{
-
     color:var(--primary);
-
     min-width:20px;
 
 }
-
-.skills{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    gap:15px;
-
-    margin-bottom:30px;
-
+.skills {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 12px 15px;
+    margin-bottom: 30px;
+    width: 100%;
 }
 
-.skills span{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:8px;
-
-    background:rgba(15,76,129,.08);
-
-    color:var(--primary);
-
-    padding:10px 18px;
-
-    border-radius:50px;
-
-    font-size:.92rem;
-
-    font-weight:500;
-
+.skills span {
+    min-width: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    line-height: 1.4;
 }
 
-.skills svg{
-
-    color:#28a745;
-
+.skills svg {
+    color: #28a745;
+    flex-shrink: 0;
+    margin-top: 3px;
 }
 
 blockquote{
 
     margin:0;
-
     padding-left:20px;
-
     border-left:4px solid var(--accent);
-
     font-style:italic;
-
     color:#555;
-
     font-size:1.05rem;
-
     line-height:1.8;
 
 }
-
 @media(max-width:991px){
-
     .partner-card{
-
         text-align:center;
-
         padding:35px 25px;
-
     }
 
     .partner-photo{
-
         margin-bottom:35px;
-
     }
 
     .partner-info p{
-
         justify-content:center;
-
     }
 
     .skills{
-
         justify-content:center;
-
     }
 
     blockquote{
-
         border-left:none;
-
         border-top:4px solid var(--accent);
-
         padding-top:20px;
-
         padding-left:0;
-
         margin-top:20px;
-
     }
-
 }

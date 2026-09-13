@@ -1,4 +1,6 @@
 
+import "../../styles/product.css";
+
 function Products() {
   const productsList = [
     {
@@ -77,13 +79,13 @@ function Products() {
                     {product.description}
                   </p>
 
-                  <ul className="list-unstyled mb-4">
+                  <ul className="ps-2 mb-4 service-features">
                     {product.features.map((feat, idx) => (
                       <li
                         key={idx}
                         className="mb-2 text-secondary"
                       >
-                        <i className="bi bi-check-circle-fill text-success me-2"></i>
+                        <span className="service-bullet"></span>
                         {feat}
                       </li>
                     ))}

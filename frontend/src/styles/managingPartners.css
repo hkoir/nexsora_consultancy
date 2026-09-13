@@ -56,7 +56,7 @@
 
 .partner-info p{
     display:flex;
-    align-items:center;
+    align-items:left;
     gap:12px;
     font-size:1rem;
     margin-bottom:15px;
@@ -113,7 +113,7 @@ blockquote{
     }
 
     .partner-info p{
-        justify-content:center;
+        justify-content:left;
     }
 
     .skills{

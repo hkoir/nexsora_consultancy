@@ -101,7 +101,7 @@
 }
 .about-features {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 18px;
     margin-top: 40px;
 }
@@ -127,11 +127,7 @@
     .about-circle{
         margin-bottom:50px;
     }
-
-     .about-features {
-        grid-template-columns: 1fr;
-        gap: 12px;
-    }
+   
 
     .feature {
         padding: 14px 16px;

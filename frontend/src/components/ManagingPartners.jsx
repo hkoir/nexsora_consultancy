@@ -60,7 +60,7 @@ function ManagingPartners() {
                             <p><FaGraduationCap />
                                 B.Sc. in Electrical & Electronic Engineering
                             </p>
-                            <p><FaGraduationCap />MBA in Marketing
+                            <p><FaGraduationCap />MBA/EMBA, IEB-F/11955
                             </p>
                             <p><FaBriefcase />
                                 27+ Years of Professional Experience

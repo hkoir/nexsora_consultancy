@@ -1,0 +1,48 @@
+.core-business-section {
+  background: #f8fafc;
+}
+
+.section-intro {
+  max-width: 800px;
+  line-height: 1.7;
+}
+
+.business-card {
+  background: #ffffff;
+  border: 1px solid #e5eaf0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+  transition: all 0.25s ease;
+}
+
+.business-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.09);
+}
+
+.business-icon {
+  font-size: 34px;
+}
+
+.business-title {
+  color: #163a5f;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 18px;
+}
+
+.business-list {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.business-list li {
+  color: #5b6770;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.business-list li::marker {
+  color: #087fb7;
+}

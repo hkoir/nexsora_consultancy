@@ -1,0 +1,18 @@
+
+@import "./styles/variables.css";
+@import "./styles/global.css";
+
+
+@import "./styles/navbar.css";
+@import "./styles/hero.css";
+@import "./styles/about.css";
+@import "./styles/business.css";
+@import "./styles/solutions.css";
+@import "./styles/contact.css";
+@import "./styles/footer.css";
+
+html {
+  scroll-behavior: smooth;
+  /* Offsets sticky navbar height so headings aren't hidden behind the bar */
+  scroll-padding-top: 80px; 
+}

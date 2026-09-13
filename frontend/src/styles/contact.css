@@ -1,0 +1,57 @@
+.contact{
+
+    padding:100px 0;
+
+    background:white;
+
+}
+
+.contact-card{
+
+    background:var(--bg-light);
+
+    border-radius:18px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    transition:var(--transition);
+
+    height:100%;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:var(--shadow-md);
+
+}
+
+.contact-icon{
+
+    font-size:2.5rem;
+
+    color:var(--primary);
+
+    margin-bottom:20px;
+
+}
+
+.contact-card h5{
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.contact-card p{
+
+    margin:0;
+
+    color:var(--text);
+
+}

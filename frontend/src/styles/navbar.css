@@ -1,0 +1,78 @@
+.navbar-custom {
+    background: var(--white);
+    padding: 18px 0;
+    transition: var(--transition);
+    box-shadow: var(--shadow-sm);
+}
+
+.logo-text {
+    color: var(--primary);
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: var(--dark);
+    font-weight: 500;
+    margin-left: 22px;
+    transition: var(--transition);
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background: var(--primary);
+    transition: .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.btn-contact {
+    background: var(--primary);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 50px;
+    transition: var(--transition);
+}
+
+.btn-contact:hover {
+    background: var(--primary-dark);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+@media (max-width:991px){
+
+    .navbar-collapse{
+        margin-top:20px;
+    }
+
+    .nav-link{
+        margin:12px 0;
+    }
+
+}

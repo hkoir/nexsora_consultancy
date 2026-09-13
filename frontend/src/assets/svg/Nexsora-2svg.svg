@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0038A8"/>
+      <stop offset="100%" stop-color="#001F5C"/>
+    </linearGradient>
+    <linearGradient id="orangeAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00"/>
+      <stop offset="100%" stop-color="#FF4500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Tech Border & Nodes -->
+  <circle cx="250" cy="250" r="235" fill="none" stroke="#0038A8" stroke-width="3" stroke-dasharray="10 15"/>
+  <circle cx="250" cy="250" r="215" fill="url(#blueRing)"/>
+  
+  <!-- Outer Connection Nodes -->
+  <line x1="250" y1="35" x2="250" y2="15" stroke="#FF7A00" stroke-width="3"/>
+  <circle cx="250" cy="15" r="7" fill="#FF7A00"/>
+
+  <!-- Inner White Disc -->
+  <circle cx="250" cy="250" r="185" fill="#FFFFFF" stroke="#E6EDF5" stroke-width="4"/>
+
+  <!-- Central "N" Logo Icon -->
+  <g transform="translate(160, 105) scale(0.9)">
+    <!-- Blue Left & Diagonal -->
+    <path d="M 20,20 L 55,20 L 135,140 L 100,140 Z" fill="#0038A8"/>
+    <path d="M 20,20 L 55,20 L 55,160 L 20,160 Z" fill="#0038A8"/>
+    <!-- Orange Right Pillar -->
+    <path d="M 115,20 L 150,20 L 150,160 L 115,160 Z" fill="url(#orangeAccent)"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="250" y="325" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" fill="#001F5C" text-anchor="middle" letter-spacing="4">NEXSORA</text>
+  
+  <text x="250" y="360" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="15" fill="#FF7A00" text-anchor="middle" letter-spacing="4">INNOVATE • SOLVE • GROW</text>
+</svg>

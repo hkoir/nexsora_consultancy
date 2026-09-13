@@ -1,0 +1,88 @@
+.business{
+
+    padding:100px 0;
+
+    background:var(--bg-light);
+
+}
+
+.section-header{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.section-description{
+
+    max-width:700px;
+
+    margin:25px auto 0;
+
+    color:var(--text);
+
+    line-height:1.8;
+
+}
+.business-card{
+
+    display:block;
+
+    text-decoration:none;
+
+    color:inherit;
+
+    background:white;
+
+    padding:40px 30px;
+
+    border-radius:18px;
+
+    height:100%;
+
+    transition:var(--transition);
+
+    box-shadow:var(--shadow-sm);
+
+    border:1px solid var(--border);
+
+}
+
+.business-card:hover{
+
+    color:inherit;
+
+    transform:translateY(-10px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.business-icon{
+
+    font-size:3rem;
+
+    color:var(--primary);
+
+    margin-bottom:25px;
+
+}
+
+.business-card h4{
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+    color:var(--dark);
+
+}
+
+.business-card p{
+
+    color:var(--text);
+
+    line-height:1.8;
+
+}

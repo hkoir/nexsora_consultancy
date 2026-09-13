@@ -114,7 +114,7 @@ const coreValues = [
 
     <div className="row g-4">
       {coreValues.map((item) => (
-        <div className="col-md-6 col-lg-4" key={item.value}>
+        <div className=" col-6 col-md-4 col-lg-3" key={item.value}>
           <div className="h-100 p-4 rounded-4 shadow-sm">
 
             <h5 className="fw-bold mb-2">

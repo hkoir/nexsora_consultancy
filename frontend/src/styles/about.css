@@ -100,8 +100,8 @@
 
 }
 .about-features {
-    display: grid !important;
-     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr))!important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 18px;
     margin-top: 40px;
 }
@@ -116,6 +116,9 @@
     box-shadow:var(--shadow-md);
 }
 
+
+
+
 @media(max-width:991px){
     .about{
         text-align:center;
@@ -125,8 +128,13 @@
         margin-bottom:50px;
     }
 
-    .about-features{
-        grid-template-columns:1fr;
+     .about-features {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .feature {
+        padding: 14px 16px;
     }
 
 }
